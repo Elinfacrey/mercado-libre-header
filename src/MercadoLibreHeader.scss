@@ -1,0 +1,23 @@
+@import "node_modules/@bbva-web-components/bbva-foundations-sass/main";
+
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.header {
+  background-color: #fff159;
+  height: 5rem;
+  
+}
+.process{
+  color: black;
+  font-size: 20px;
+}
